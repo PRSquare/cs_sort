@@ -32,6 +32,27 @@ namespace sort
         }
     };
 
+    class InsertionSort<T> : ISortType<T>
+    {
+        public void Sort(T [] array)
+        {
+            Comparer<T> defaultComparer = Comparer<T>.Default;
+            for( uint i = 1; i < array.Length; ++i)
+            {
+                var temp = array[i];
+                var j = i;
+                while(j > 0 && defaultComparer.Compare(temp, array[j-1]) < 0 )
+                {
+                    array[j] = array[j-1];
+                    --j;
+
+                }
+                array[j] = temp;
+            }
+        }
+    };
+
+
     class SortedArray<T>
     {
         private T [] arr;
@@ -63,7 +84,8 @@ namespace sort
         {
             int [] arr = new int[] {3, 5, 1, 6, 3, 7, 10, 23, 11, 5};
             SortedArray<int> testArr = new SortedArray<int>( arr);
-            testArr.SetSorType( new BubbleSort<int>() );
+            testArr.SetSorType( new InsertionSort<int>() );
+            testArr.Show();
             testArr.Sort();
             testArr.Show();
         }
