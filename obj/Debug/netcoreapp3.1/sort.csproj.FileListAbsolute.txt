@@ -1,0 +1,13 @@
+C:\Projects\sort\bin\Debug\netcoreapp3.1\sort.exe
+C:\Projects\sort\bin\Debug\netcoreapp3.1\sort.deps.json
+C:\Projects\sort\bin\Debug\netcoreapp3.1\sort.runtimeconfig.json
+C:\Projects\sort\bin\Debug\netcoreapp3.1\sort.runtimeconfig.dev.json
+C:\Projects\sort\bin\Debug\netcoreapp3.1\sort.dll
+C:\Projects\sort\bin\Debug\netcoreapp3.1\sort.pdb
+C:\Projects\sort\obj\Debug\netcoreapp3.1\sort.csprojAssemblyReference.cache
+C:\Projects\sort\obj\Debug\netcoreapp3.1\sort.AssemblyInfoInputs.cache
+C:\Projects\sort\obj\Debug\netcoreapp3.1\sort.AssemblyInfo.cs
+C:\Projects\sort\obj\Debug\netcoreapp3.1\sort.csproj.CoreCompileInputs.cache
+C:\Projects\sort\obj\Debug\netcoreapp3.1\sort.dll
+C:\Projects\sort\obj\Debug\netcoreapp3.1\sort.pdb
+C:\Projects\sort\obj\Debug\netcoreapp3.1\sort.genruntimeconfig.cache

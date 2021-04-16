@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\PRSquare\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\PRSquare\\.nuget\\packages"
+    ]
+  }
+}
